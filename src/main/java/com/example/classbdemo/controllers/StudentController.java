@@ -20,7 +20,7 @@ public class StudentController {
 
 
 //  get all student
-    @GetMapping
+    @GetMapping()
     public List<Student> getAll() {
 
         return studentRepository.findAll();
